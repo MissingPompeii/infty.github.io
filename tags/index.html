@@ -283,10 +283,10 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <div class="tag-chips">
                 
                 
-                <a href="/tags/学霸来讲课/" title="学霸来讲课: 2">
+                <a href="/tags/学霸来讲课/" title="学霸来讲课: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default " data-tagname="学霸来讲课" style="background-color: #F9EBEA;">学霸来讲课
-                        <span class="tag-length">2</span>
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -322,7 +322,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"学霸来讲课","weight":2,"link":"https://yuleiwhu.github.io/tags/学霸来讲课/"},{"text":"Glory Wall","weight":1,"link":"https://yuleiwhu.github.io/tags/Glory-Wall/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"学霸来讲课","weight":3,"link":"https://yuleiwhu.github.io/tags/学霸来讲课/"},{"text":"Glory Wall","weight":1,"link":"https://yuleiwhu.github.io/tags/Glory-Wall/"}], {
         autoResize: true
     });
 </script>
@@ -381,7 +381,24 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script src="/libs/aos/aos.js"></script>
 <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
 <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-<script src="/js/matery.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<script src="/js/matery.js"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":null,"autoNumber":"AMS"}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 
 </body>
 </html>

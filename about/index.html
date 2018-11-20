@@ -288,7 +288,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">5</a></span>
+    <span class="count"><a href="/" target="_blank">6</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -316,7 +316,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">5</a></span>
+    <span class="count"><a href="/" target="_blank">6</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -427,7 +427,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,5],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,6],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -469,7 +469,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"学霸来讲课","value":2},{"name":"Glory Wall","value":1}],
+                data: [{"name":"学霸来讲课","value":3},{"name":"Glory Wall","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -506,7 +506,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [2,1],
+                data: [3,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -635,7 +635,24 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script src="/libs/aos/aos.js"></script>
 <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
 <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-<script src="/js/matery.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<script src="/js/matery.js"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":null,"autoNumber":"AMS"}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 
 </body>
 </html>

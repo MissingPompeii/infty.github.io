@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>第二期《学霸来讲课》课前准备</title>
+      <link href="/2018/11/20/opencv/"/>
+      <url>/2018/11/20/opencv/</url>
+      
+        <content type="html"><![CDATA[<p>各位八班的同学，opencv的安装与配置步骤均已在pdf里展示，请注意查收并及时安装呦！有什么问题可以提出来，大家相互交流一下。另外，提前熟悉一下opencv不失为一个好的选择。<br><img src="OpenCV安装教程.pdf" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学霸来讲课 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学霸来讲课 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Glory Wall</title>
       <link href="/2018/11/18/glory-wall/"/>
       <url>/2018/11/18/glory-wall/</url>
@@ -38,17 +61,6 @@
     
     <entry>
       <title>第二期《学霸来讲课》</title>
-      <link href="/2018/11/14/third/"/>
-      <url>/2018/11/14/third/</url>
-      
-        <content type="html"><![CDATA[<h2 id="系统转换成最小相位延迟系统"><a href="#系统转换成最小相位延迟系统" class="headerlink" title="系统转换成最小相位延迟系统"></a>系统转换成最小相位延迟系统</h2><p>基本步骤：</p><ol><li>找到所有的零点和极点，并保留所有极点</li><li>将单位圆内的零点保留</li><li>单位圆外的零点取镜像对称作为新系统的零点</li></ol><h3 id="Example：将混合相位传输函数转换成最小相位"><a href="#Example：将混合相位传输函数转换成最小相位" class="headerlink" title="Example：将混合相位传输函数转换成最小相位"></a>Example：将混合相位传输函数转换成最小相位</h3><p>考虑下面的混合相位传输函数，$\int x dx$</p><p>$$<br>        H(z) = {2(1+0.3z^{-1})(0.4-z^{-1})}{(1-0.2z^{-1})(1+0.5z^{-1})}<br>$$</p><p>$$<br>H(z) = \frac{2(1+0.3z^{-1})(0.4-z^{-1})}{(1-0.2z^{-1})(1+0.5z^{-1})}<br>$$</p><ol><li>零点为$z=-0.3$和$z=2.5$</li><li>保留单位圆内的零点$z=-0.3$</li><li>将圆外零点$z=2.5$镜像对称$z=1/2.5=0.4$</li></ol><p>可以将其分解为如下形式</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    <entry>
-      <title>第二期《学霸来讲课》</title>
       <link href="/2018/11/14/second/"/>
       <url>/2018/11/14/second/</url>
       
@@ -67,6 +79,17 @@
             <tag> 学霸来讲课 </tag>
             
         </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>第二期《学霸来讲课》</title>
+      <link href="/2018/11/14/third/"/>
+      <url>/2018/11/14/third/</url>
+      
+        <content type="html"><![CDATA[<h2 id="系统转换成最小相位延迟系统"><a href="#系统转换成最小相位延迟系统" class="headerlink" title="系统转换成最小相位延迟系统"></a>系统转换成最小相位延迟系统</h2><p>基本步骤：</p><ol><li>找到所有的零点和极点，并保留所有极点</li><li>将单位圆内的零点保留</li><li>单位圆外的零点取镜像对称作为新系统的零点</li></ol><h3 id="Example：将混合相位传输函数转换成最小相位"><a href="#Example：将混合相位传输函数转换成最小相位" class="headerlink" title="Example：将混合相位传输函数转换成最小相位"></a>Example：将混合相位传输函数转换成最小相位</h3><p>考虑下面的混合相位传输函数，$\int x dx$</p><p>$$<br>        H(z) = {2(1+0.3z^{-1})(0.4-z^{-1})}{(1-0.2z^{-1})(1+0.5z^{-1})}<br>$$</p><p>$$<br>H(z) = \frac{2(1+0.3z^{-1})(0.4-z^{-1})}{(1-0.2z^{-1})(1+0.5z^{-1})}<br>$$</p><ol><li>零点为$z=-0.3$和$z=2.5$</li><li>保留单位圆内的零点$z=-0.3$</li><li>将圆外零点$z=2.5$镜像对称$z=1/2.5=0.4$</li></ol><p>可以将其分解为如下形式</p>]]></content>
+      
+      
       
     </entry>
     
